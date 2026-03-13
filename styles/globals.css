@@ -1,0 +1,55 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+/* ---------------- GLOBAL RESET ---------------- */
+
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+/* ---------------- BODY STYLING ---------------- */
+
+body {
+  background-color: #f3f4f6;
+  color: #111827;
+  font-family: sans-serif;
+}
+/* ---------------- CONTAINER UTILITY ---------------- */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* ---------------- SCROLLBAR STYLE ---------------- */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ---------------- IMAGE DEFAULT ---------------- */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ---------------- LINK DEFAULT ---------------- */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
