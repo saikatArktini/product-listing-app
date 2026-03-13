@@ -65,7 +65,7 @@ DATABASE_URL="your-mongodb-connection-string"
 Example:
 
 ```
-DATABASE_URL="mongodb+srv://username:password@cluster.mongodb.net/productdb"
+DATABASE_URL="DATABASE_URL="mongodb+srv://username:password@productmanagement.fnqjcc7.mongodb.net/mydb?retryWrites=true&w=majority""
 ```
 
 # Features
